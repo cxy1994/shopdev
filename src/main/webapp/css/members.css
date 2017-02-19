@@ -1,0 +1,87 @@
+@CHARSET "UTF-8";
+.memberLogin .edit_contentbox ul.edit_content {
+    padding: 0;
+}
+.memberLogin .editor-fnblock {
+    padding: 0 0 14px 20px;
+}
+.memberLogin .editor-fnblock .title{
+    width: 165px;
+    margin-left: 12px;
+}
+.memberLogin .borderPosition .direction {
+    margin-left: 4px;
+}
+
+.login_done .member-login{
+    display: none!important;
+}
+.login_done .member-regist{
+    display: none!important;
+}
+
+.memberLogin .edit_direction, .memberLogin .direction {
+    display: inline-block;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.memberLogin .direction.active span {
+    border: none;
+    background: #59c4ff url(../../images/v2/design/popup/duoxuan.png) no-repeat center center;
+}
+
+.memberLogin .direction span, .memberLogin .edit_direction span {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 2px 5px 0 0;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    vertical-align: top;
+}
+
+
+.memberLogin .edit3 label {
+    margin-bottom: 0;
+}
+.memberLogin  .editor-fnblock  span.name{
+    color: #333;
+}
+.wqdDMembers,.wqdelementEdit a.wqd-members{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #2dbce6;
+    color: #fff;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+}
+ .wqdDMembers{
+    width: 110px;
+    height: 30px;
+}
+ .wqdDMembers em,.wqdelementEdit a.wqd-members em{
+    font-style: normal;
+    font-size: 14px;
+    color: #2dbce6;
+    position: relative;
+    top: 50%;
+    display: block;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+.wqdComponents ul li.wqdDragMemberLoginD {
+    display: inline-block;
+    vertical-align: middle;
+    width: 110px;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+.wqdComponents ul li.wqdDragMemberLoginD:first-child{
+    margin: 0 14px 10px 5px;
+}
