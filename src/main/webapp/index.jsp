@@ -213,11 +213,11 @@
 										<li class="wqdNavLi"><a href="home/news" pageid="184600"
 											categorylink="2">新闻资讯</a></li>
 										<li class="wqdNavLi" wqdnavmark="mark1469761180967"><a
-											href="home/login" pageid="184601" categorylink="2">Sign
+											href="/shopdev/home/login" pageid="184601" categorylink="2">Sign
 												in</a></li>
 										<!-- 购物车 -->
-										<li class="wqdNavLi" wqdnavmark="mark1469761180967"><a
-											href="#" categorylink="2">购物车[0]</a></li>
+										<li class="wqdNavLi" wqdnavmark="mark1469761180968"><a
+											href="#" categorylink="2">购物车</a>[0]</li>
 									</ul>
 								</nav>
 							</div>
@@ -228,11 +228,12 @@
 							elementid="elementId1450921413685" data-elemandgroup="true"
 							wqdimgurlos="http://img.wqdian.com/group3/M00/E3/DA/yq0KZVZrxNqADo1sAAAPCORadY0398.png">
 							<div class="wqdelementEditBox">
+							<!-- freestyle图标 -->
 								<img class="wqd-img" ondragstart="return false;"
 									src="http://img.wqdian.com/group4/M00/62/70/yq0KYFcLcymABhRsAAAZZZr4J7U672.png">
 							</div>
 						</div>
-						<div class="wqdelementEdit" id="elementId1450921525270"
+						<%--<div class="wqdelementEdit" id="elementId1450921525270"
 							style="width: 109px; height: 37px; left: 1091px; top: 28.5px; z-index: 3;"
 							data-elementtype="share" data-zindex="3"
 							elementid="elementId1450921525270" data-elemandgroup="true">
@@ -274,6 +275,7 @@
 								</ul>
 							</div>
 						</div>
+						--%>
 						<div class="wqdelementEdit" id="elementId1469760127292"
 							style="width: 247px; height: 95px; left: 0px; top: 0px; z-index: 4;"
 							data-elementtype="freeRect" data-zindex="4"
@@ -342,30 +344,70 @@
 }
 
 #elementId1453018885570
+
+
  
+
+
 .carousel-indicators
+
+
  
+
+
 li
+
+
+
+
 :not
+
+
  
+
+
 (
 .active
+
+
  
+
+
 ){
 border-color
+
+
+
+
 :
+
+
  
+
+
 #ccccc
-;
 
-	
+
+
+
+;
 background-color
+
+
+
+
 :
+
+
  
+
+
 #e6e6e6
+
+
+
+
 ;
-
-
 }
 #elementId1453018885570 .carousel-control {
 	background-color: rgba(34, 203, 104, 0.45);
@@ -387,7 +429,8 @@ background-color
 	color: #8888FF;
 }
 
-#elementId1453018885570 .carousel-indicators li:not  (.active  ) span {
+#elementId1453018885570 .carousel-indicators li:not    (.active    )
+	span {
 	color: #191919;
 }
 </style>
@@ -2889,4 +2932,5 @@ background-color
 	<div style="display:none"></div>
 </body>
 </html>
+
 

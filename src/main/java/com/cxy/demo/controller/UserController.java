@@ -52,6 +52,6 @@ public class UserController {
     
     @RequestMapping("/login")  //url4  联系我们
     public String toIndex7(HttpServletRequest request,Model model){  
-        return "login";  //跳转页面名
+        return "login1";  //跳转页面名
     } 
 }  
