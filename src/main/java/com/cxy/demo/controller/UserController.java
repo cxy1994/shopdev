@@ -27,7 +27,7 @@ public class UserController {
        /* int userId = Integer.parseInt(request.getParameter("id"));  
         UserDomain user = userService.getUserById(userId);  
         model.addAttribute("user", user); */
-        return "home";  //跳转页面名
+        return "index";  //跳转页面名
     } 
     
     @RequestMapping("/store")  //url2  商店
@@ -48,5 +48,10 @@ public class UserController {
     @RequestMapping("/contactus")  //url4  联系我们
     public String toIndex6(HttpServletRequest request,Model model){  
         return "contactus";  //跳转页面名
+    } 
+    
+    @RequestMapping("/login")  //url4  联系我们
+    public String toIndex7(HttpServletRequest request,Model model){  
+        return "login";  //跳转页面名
     } 
 }  

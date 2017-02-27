@@ -25,18 +25,18 @@
 <script type="text/javascript" src="../js/lib/jquery/jquery-1.11.2.min.js"></script>
 <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 
-	<link rel="stylesheet" type="text/css" href="../css/base.css?v=201701061205">
-		<link rel="stylesheet" type="text/css" href="../css/plugin.css?v=201701061205">
-	<link rel="stylesheet" type="text/css" href="../css/animate.css?v=201701061205">
-	<link rel="stylesheet" type="text/css" href="../css/component.css?v=201701061205">
-	<link rel="stylesheet" type="text/css" href="../css/wqdhost.css?v=201701061205">
-	<link rel="stylesheet" type="text/css" href="../css/edit-mall.css?v=201701061205">
+	<link rel="stylesheet" type="text/css" href="../css/base.css">
+		<link rel="stylesheet" type="text/css" href="../css/plugin.css">
+	<link rel="stylesheet" type="text/css" href="../css/animate.css">
+	<link rel="stylesheet" type="text/css" href="../css/component.css">
+	<link rel="stylesheet" type="text/css" href="../css/wqdhost.css">
+	<link rel="stylesheet" type="text/css" href="../css/edit-mall.css">
 	<link rel="stylesheet" type="text/css" href="../css/nanoscroller.css">
 	<!-- <link rel="stylesheet" type="text/css" href="http://p.wqdian.com/js/app/plugin/navTemplate1/navTemplate1.css"> -->
 	<!-- <link rel="stylesheet" type="text/css" href="http://p.wqdian.com/js/app/plugin/navTemplate2/navTemplate2.css"> -->
 	<link rel="stylesheet" type="text/css" href="../css/members.css" />
 	<!-- <link rel="stylesheet" type="text/css" href="http://p.wqdian.com/js/app/plugin/commodityList/commodityList.css"> -->
-	<link rel="stylesheet" type="text/css" href="../css/wechat/wechat_login.css?v=201701061205">
+	<link rel="stylesheet" type="text/css" href="../css/wechat/wechat_login.css">
 
 
 <link rel="stylesheet" type="text/css" href="../css/index.css">
@@ -98,11 +98,11 @@
 						    <div class="wqdelementEditBox">
 							    <nav class="wqdNavWrap">
 									<ul class="wqdNavList">
-										<li class="wqdNavLi"><a href="/home.html" pageid="184332" categorylink="2">首页</a></li>
-										<li class="wqdNavLi" wqdnavmark="mark1450778680503"><a href="/62a6029744a14b16bbb7abefaf66591b.html" pageid="184598" categorylink="2">商店</a></li>
-										<li class="wqdNavLi"><a href="/669e74d78ac445439ddc5ec8cce7def9.html" pageid="184599" categorylink="2">关于我们</a></li>
-										<li class="wqdNavLi"><a href="/ff6cd9c1aeee4e928c14cbf1837563ab.html" pageid="184600" categorylink="2">新闻资讯</a></li>
-										<li class="wqdNavLi" wqdnavmark="mark1469761180967"><a href="/c04b01d7f8c042c8869120f48bc1dbae.html" pageid="184601" categorylink="2">联系我们</a></li>
+										<li class="wqdNavLi"><a href="#" pageid="184332" categorylink="2">首页</a></li>
+										<li class="wqdNavLi" wqdnavmark="mark1450778680503"><a href="store" pageid="184598" categorylink="2">商店</a></li>
+										<li class="wqdNavLi"><a href="aboutus" pageid="184599" categorylink="2">关于我们</a></li>
+										<li class="wqdNavLi"><a href="news" pageid="184600" categorylink="2">新闻资讯</a></li>
+										<li class="wqdNavLi" wqdnavmark="mark1469761180967"><a href="contactus" pageid="184601" categorylink="2">联系我们</a></li>
 									</ul>
 								</nav>
 							</div>
