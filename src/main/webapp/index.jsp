@@ -217,7 +217,7 @@
 												in</a></li>
 										<!-- 购物车 -->
 										<li class="wqdNavLi" wqdnavmark="mark1469761180968"><a
-											href="#" categorylink="2">购物车</a>[0]</li>
+											href="#" categorylink="2">购物车<span id="carNum">[0]</span></a></li>
 									</ul>
 								</nav>
 							</div>

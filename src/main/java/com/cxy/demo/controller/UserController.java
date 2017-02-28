@@ -11,47 +11,47 @@ import com.cxy.demo.domain.UserDomain;
 import com.cxy.demo.service.interfaces.IUserService;
   
 /**
- * Ò³ÃæÌø×ª¿ØÖÆÀà
+ * é¡µé¢è·³è½¬æ§åˆ¶ç±»
  * @author cxy
  *
  */
   
 @Controller  
-@RequestMapping("/home")  //url0 Ò»¼¶url
+@RequestMapping("/home")  //url0 
 public class UserController {  
     @Resource  
     private IUserService userService;  
       
-    @RequestMapping("")  //url1  Ê×Ò³
+    @RequestMapping("")  //url1  
     public String toIndex(HttpServletRequest request,Model model){  
        /* int userId = Integer.parseInt(request.getParameter("id"));  
         UserDomain user = userService.getUserById(userId);  
         model.addAttribute("user", user); */
-        return "index";  //Ìø×ªÒ³ÃæÃû
+        return "index";  
     } 
     
-    @RequestMapping("/store")  //url2  ÉÌµê
+    @RequestMapping("/store")  //url2  
     public String toIndex2(HttpServletRequest request,Model model){  
-        return "store";  //Ìø×ªÒ³ÃæÃû
+        return "store";  
     } 
     
-    @RequestMapping("/aboutus")  //url3  ¹ØÓÚÎÒÃÇ
+    @RequestMapping("/aboutus")  //url3 
     public String toIndex3(HttpServletRequest request,Model model){  
-        return "aboutus";  //Ìø×ªÒ³ÃæÃû
+        return "aboutus";  
     }  
     
-    @RequestMapping("/news")  //url4  ĞÂÎÅ×ÊÑ¶
+    @RequestMapping("/news")  //url4  
     public String toIndex5(HttpServletRequest request,Model model){  
-        return "news";  //Ìø×ªÒ³ÃæÃû
+        return "news";  
     } 
     
-    @RequestMapping("/contactus")  //url4  ÁªÏµÎÒÃÇ
+    @RequestMapping("/contactus")  //url4 
     public String toIndex6(HttpServletRequest request,Model model){  
-        return "contactus";  //Ìø×ªÒ³ÃæÃû
+        return "contactus";  
     } 
     
-    @RequestMapping("/login")  //url4  ÁªÏµÎÒÃÇ
+    @RequestMapping("/login")  //url4 
     public String toIndex7(HttpServletRequest request,Model model){  
-        return "login1";  //Ìø×ªÒ³ÃæÃû
+        return "login";  
     } 
 }  
