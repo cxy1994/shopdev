@@ -1,7 +1,8 @@
 package com.cxy.demo.dao;
 
-import com.cxy.demo.domain.UserDomain;
+import java.util.List;
 
+import com.cxy.demo.domain.UserDomain;
 
 public interface IUserDao {
     int deleteByPrimaryKey(Integer id);
@@ -11,6 +12,8 @@ public interface IUserDao {
     int insertSelective(UserDomain record);
 
     UserDomain selectByPrimaryKey(Integer id);
+    
+    List<UserDomain> selectByPhoneNo(String PhoneNo) ;
 
     int updateByPrimaryKeySelective(UserDomain record);
 

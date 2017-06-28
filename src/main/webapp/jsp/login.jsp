@@ -1,5 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%
+	String msg = request.getParameter("msg");
+	System.out.println(msg);
+%>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html lang="zh-CN" class="">
@@ -29,29 +34,26 @@
 	content="FTeR0c8arOPKh8c5DYh_9uu98_zJbaWw53J-Sch9MTg" />
 <meta name="baidu-site-verification" content="KPFppAFoYF4Kkdv9" />
 <meta property="qc:admins" content="00544670776201056375" />
-<link rel="canonical" href="http://www.zhihu.com" />
+<%--<link rel="canonical" href="http://www.zhihu.com" />
+--%>
+
+<!-- 安全协议 -->
 <meta id="znonce" name="znonce"
 	content="cd788d824d434ecf908d68a995944a8c">
-<!--[if lt IE 9]>
-<script src="https://static.zhihu.com/static/components/respond/dest/respond.min.js"></script>
-<link href="https://static.zhihu.com/static/components/respond/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
-<link href="/static/components/respond/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
-<script src="/static/components/respond/cross-domain/respond.proxy.js"></script>
-<![endif]-->
 <script src="../js/zhihu/instant.js"></script>
+
 </head>
 <body class="zhi ">
 	<div class="index-main">
 		<div class="index-main-body">
 			<div class="index-header">
 				<!-- 图标在css里 background设置 -->
-				<h1 class="logo hide-text">知乎</h1>
+				<a href="/shopdev"><h1 class="logo hide-text">寰宇</h1> </a>
 
 				<h2 class="subtitle">悦动你的生活~~</h2>
 			</div>
 
 			<div class="desk-front sign-flow clearfix sign-flow-simple">
-
 				<div class="index-tab-navs">
 					<div class="navs-slider">
 						<a href="#signup" class="active">注册</a> <a href="#signin">登录</a> <span
@@ -60,7 +62,7 @@
 				</div>
 
 				<div class="view view-signin" data-za-module="SignInForm">
-					<form method="POST">
+					<form method="post" action="signin">
 						<input type="hidden" name="_xsrf"
 							value="eb94a98d5ecb12a2788d1327673b9f2c" />
 						<div class="group-inputs">
@@ -68,32 +70,26 @@
 							<div class="account input-wrapper">
 
 								<input type="text" name="account" aria-label="手机号或邮箱"
-									placeholder="手机号或邮箱" required>
+									placeholder="手机号或邮箱" >
 							</div>
 							<div class="verification input-wrapper">
 								<input type="password" name="password" aria-label="密码"
-									placeholder="密码" required />
-								<button type="button" class="send-code-button">获取验证码</button>
+									placeholder="密码"  />
 							</div>
 
 							<div class="input-wrapper captcha-module" data-type="en">
-								<input id="captcha" name="captcha" placeholder="验证码" required
-									data-rule-required="true" data-msg-required="请填写验证码">
+								<input id="captcha" name="captcha" placeholder="验证码" >
 								<div class="captcha-container">
 
 									<img class="js-refreshCaptcha captcha" width="120" height="30"
 										data-tooltip="s$t$看不清楚？换一张" alt="验证码">
 								</div>
 							</div>
-
 						</div>
 						<div class="button-wrapper command">
 							<button class="sign-button submit" type="submit">登录</button>
 						</div>
 						<div class="signin-misc-wrapper clearfix">
-
-							<button type="button" class="signin-switch-button">手机验证码登录</button>
-
 							<a class="unable-login" href="#">无法登录？</a>
 						</div>
 					</form>
@@ -107,27 +103,26 @@
 
 				</div>
 				<div class="view view-signup selected" data-za-module="SignUpForm">
-					<form class="zu-side-login-box" action="/LoginServlet"
-						id="sign-form-1" autocomplete="off" method="POST">
+					<form class="zu-side-login-box" method="post" action="signup"
+						id="sign-form-1" autocomplete="off" method="post">
 						<input type="password" hidden> <input type="hidden"
 							name="_xsrf" value="eb94a98d5ecb12a2788d1327673b9f2c" />
 						<div class="group-inputs">
 							<div class="name input-wrapper">
-								<input required type="text" name="fullname" aria-label="姓名"
+								<input type="text" name="fullname" aria-label="姓名"
 									placeholder="姓名">
 							</div>
 							<div class="email input-wrapper">
 
-								<input required type="text" class="account" name="phone_num"
+								<input type="text" class="account" name="phone_num"
 									aria-label="手机号（仅支持中国大陆）" placeholder="手机号（仅支持中国大陆）">
 							</div>
 							<div class="input-wrapper">
-								<input required type="password" name="password" aria-label="密码"
+								<input type="password" name="password" aria-label="密码"
 									placeholder="密码（不少于 6 位）" autocomplete="off">
 							</div>
 							<div class="input-wrapper captcha-module" data-type="en">
-								<input id="captcha" name="captcha" placeholder="验证码" required
-									data-rule-required="true" data-msg-required="请填写验证码">
+								<input id="captcha" name="captcha" placeholder="验证码" >
 								<div class="captcha-container">
 									<img class="js-refreshCaptcha captcha" width="120" height="30"
 										data-tooltip="s$t$看不清楚？换一张" alt="验证码">
@@ -136,7 +131,8 @@
 
 						</div>
 						<div class="button-wrapper command">
-							<button class="sign-button submit" type="submit">注册</button>
+							<button class="sign-button submit" type="submit"
+								onclick="submit();">注册</button>
 						</div>
 					</form>
 
@@ -178,10 +174,14 @@
 	<script type="text/json" class="json-inline" data-name="ga_vars">{"user_created":0,"now":1488199328000,"abtest_mask":"------------------------------","user_attr":[0,0,0,"-","-"],"user_hash":0}</script>
 
 	<script src="../js/zhihu/vendor.js"></script>
+
 	<script src="../js/zhihu/base.js"></script>
 
-	<script src="../js/zhihu/common.js"></script>
+	<%--<script src="../js/zhihu/common.js"></script>
+	
+	--%>
 	<script src="../js/zhihu/page-index.js"></script>
+
 	<meta name="entry" content="ZH.entrySignPage"
 		data-module-id="page-index">
 
@@ -192,15 +192,26 @@
 
 <script type="text/javascript">
 	window.onload = function() {
-		//alert("1");
+		alert(<%=msg%>);
+		alert(${msg});
 	}
-	
-	function submit(){
-		var name = document.getElementsByName("fullname");
-		var phoneNo = document.getElementsByName("phone_num");
-		var pwd = document.getElementsByName("password");
-		alert("name");
-		
+	alert(<%=msg%>);
+	//提交校验--后台校验
+	function sub() {
+		boolean flag = true;//验证是否通过 默认通过
+		var fullname = document.getElementsByName("fullname");
+		var account = document.getElementsByName("account");
+		var password = document.getElementsByName("password");
+		if (fullname == null || account == null || password == null
+				|| fullname == '') {
+			flag = false;
+		}
+		if (!flag) {
+			alert("不通过");
+			return false;
+		} else {
+			document.getElementById("SignUpForm").submit();//表单提交
+		}
 	}
 </script>
 </html>

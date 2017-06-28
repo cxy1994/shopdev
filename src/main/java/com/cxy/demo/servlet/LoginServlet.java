@@ -67,6 +67,9 @@ public class LoginServlet extends HttpServlet {
 	public void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 
+		String fullname = request.getParameter("fullname");
+		System.out.println(fullname);
+		//request.getRequestDispatcher("AddDevice.jsp").forward(request, response);
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
 		out.println("<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">");

@@ -1,5 +1,7 @@
 package com.cxy.demo.domain;
 
+import java.util.Date;
+
 public class UserDomain {
     private Integer id;
 
@@ -16,8 +18,12 @@ public class UserDomain {
     private String phoneNum;
 
     private String remark;
+    
+    private Integer isAdmin;
+    
+    private Date createDate;
 
-    private String ext1;
+	private String ext1;
 
     private String ext2;
 
@@ -87,6 +93,22 @@ public class UserDomain {
         this.remark = remark == null ? null : remark.trim();
     }
 
+    public Integer getIsAdmin() {
+        return isAdmin;
+    }
+
+    public void setIsAdmin(Integer isAdmin) {
+        this.isAdmin = isAdmin;
+    }
+    
+    public Date getCreateDate() {
+		return createDate;
+	}
+
+	public void setCreateDate(Date createDate) {
+		this.createDate = createDate;
+	} 
+    
     public String getExt1() {
         return ext1;
     }
