@@ -3,6 +3,7 @@ package com.cxy.demo.controller;
 import java.util.List;
 
 import javax.annotation.Resource;
+import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServletRequest;
 
 import org.apache.log4j.Logger;
@@ -76,6 +77,12 @@ public class UserController {
 		return "/jsp/center.jsp";
 	}
 
+	// 跳转商品详情
+	@RequestMapping("/details")
+	public String toDetails(HttpServletRequest request, Model model) {
+		return "/jsp/details.jsp";
+	}
+
 	// 注册
 	@RequestMapping("/signup")
 	public String SignUp(HttpServletRequest request, Model model) {
@@ -94,10 +101,10 @@ public class UserController {
 		}
 		log.error("注册返回：" + i);
 		model.addAttribute("fullname", fullname);
-		//直接跳转首页，显示用户名
+		// 直接跳转首页，显示用户名
 		return "index.jsp";
 	}
- 
+
 	// 登录
 	@RequestMapping("/signin")
 	public String SignIn(HttpServletRequest request, Model model) {
@@ -108,13 +115,13 @@ public class UserController {
 			model.addAttribute("msg", "账号或密码输入有误，请检查后重试！");
 			return "/jsp/login.jsp";
 		}
-		if(user.getIsAdmin() != null){
+		if (user.getIsAdmin() != null) {
 			model.addAttribute("msg", "管理员账户！");
-			model.addAttribute("fullname",user.getUserName());
+			model.addAttribute("fullname", user.getUserName());
 			return "/jsp/admin.jsp";
 		}
 		log.error("登录返回：" + user);
 		model.addAttribute("fullname", user.getUserName());
-		return "index.jsp?fullname="+user.getUserName();
+		return "index.jsp?fullname=" + user.getUserName();
 	}
 }

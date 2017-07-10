@@ -162,9 +162,9 @@
 											categorylink="2">首页</a>
 										</li>
 										<li class="wqdNavLi" wqdnavmark="mark1450778680503"><a
-											href="#" pageid="184598" categorylink="2">商店</a>
+											href="shopdev/home/store" pageid="184598" categorylink="2">商店</a>
 										</li>
-										<li class="wqdNavLi"><a href="news" pageid="184600"
+										<li class="wqdNavLi"><a href="/home/news" pageid="184600"
 											categorylink="2">新闻资讯</a>
 										</li>
 										<li class="wqdNavLi" wqdnavmark="mark1469761180967"><a
@@ -899,8 +899,7 @@
 							wqdborderradius="0" hoverborcol="#fff" hoverbaccol="#fff"
 							hovercol="#000000">
 							<div class="wqdelementEditBox">
-								<a class="wqd-button wqdComponentBtn1"
-									ondragstart="return false;" wqdbtnborder="false"><em>了解详情</em>
+								<a href="home/details"><em>了解详情</em>
 								</a>
 							</div>
 						</div>
@@ -1027,7 +1026,7 @@
 							hovercol="#000000">
 							<div class="wqdelementEditBox">
 								<a class="wqd-button wqdComponentBtn1"
-									ondragstart="return false;" wqdbtnborder="false"><em>了解详情</em>
+									 ondragstart="return false;" wqdbtnborder="false"><em>了解详情</em>
 								</a>
 							</div>
 						</div>
@@ -1433,7 +1432,7 @@
 										wqdborderradius="0" hoverborcol="rgba(188,134,92,0)"
 										hoverbaccol="#292828">
 										<div class="wqdelementEditBox">
-											<a class="wqd-button wqdComponentBtn1 on"
+											<a href="../home/details" class="wqd-button wqdComponentBtn1 on"
 												style="border-width: 2px; border-style: solid;"
 												ondragstart="return false;" wqdbtnborder="false"><em>了解详情</em>
 											</a>
