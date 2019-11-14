@@ -18,12 +18,12 @@ public class UserDomain {
     private String phoneNum;
 
     private String remark;
-    
+
     private Integer isAdmin;
-    
+
     private Date createDate;
 
-	private String ext1;
+    private String ext1;
 
     private String ext2;
 
@@ -100,15 +100,15 @@ public class UserDomain {
     public void setIsAdmin(Integer isAdmin) {
         this.isAdmin = isAdmin;
     }
-    
-    public Date getCreateDate() {
-		return createDate;
-	}
 
-	public void setCreateDate(Date createDate) {
-		this.createDate = createDate;
-	} 
-    
+    public Date getCreateDate() {
+        return createDate;
+    }
+
+    public void setCreateDate(Date createDate) {
+        this.createDate = createDate;
+    }
+
     public String getExt1() {
         return ext1;
     }
@@ -131,5 +131,9 @@ public class UserDomain {
 
     public void setExt3(String ext3) {
         this.ext3 = ext3 == null ? null : ext3.trim();
+    }
+
+    protected void finalize() {
+
     }
 }

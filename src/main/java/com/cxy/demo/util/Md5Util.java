@@ -31,7 +31,8 @@ public class Md5Util {
 	}
 	
 	
-	/**判断用户密码是否正确
+	/**
+	 * 判断用户密码是否正确
      * @param newpasswd  用户输入的密码
      * @param oldpasswd  数据库中存储的密码－－用户密码的摘要
      * @return true/false

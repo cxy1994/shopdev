@@ -10,5 +10,7 @@ public class Test {
 		for(int i=0;i<str.length();i++){
 			System.out.println("aaAA");
 		}
+		Object obj = new Object();
+		System.gc();
 	}
 }
