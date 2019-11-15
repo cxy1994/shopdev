@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.cxy.demo.dao.IProductsDao">
-  <resultMap id="BaseResultMap" type="com.cxy.demo.domain.ProductsDomain">
+  <resultMap id="BaseResultMap" type="com.cxy.demo.bean.ProductsDomain">
     <id column="prod_id" jdbcType="VARCHAR" property="prodId" />
     <result column="prod_name" jdbcType="VARCHAR" property="prodName" />
     <result column="img_path" jdbcType="VARCHAR" property="imgPath" />
@@ -21,13 +21,13 @@
     delete from products_t
     where prod_id = #{prodId,jdbcType=VARCHAR}
   </delete>
-  <insert id="insert" parameterType="com.cxy.demo.domain.ProductsDomain">
+  <insert id="insert" parameterType="com.cxy.demo.bean.ProductsDomain">
     insert into products_t (prod_id, prod_name, img_path, 
       category_id, category_name)
     values (#{prodId,jdbcType=VARCHAR}, #{prodName,jdbcType=VARCHAR}, #{imgPath,jdbcType=VARCHAR}, 
       #{categoryId,jdbcType=VARCHAR}, #{categoryName,jdbcType=VARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="com.cxy.demo.domain.ProductsDomain">
+  <insert id="insertSelective" parameterType="com.cxy.demo.bean.ProductsDomain">
     insert into products_t
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="prodId != null">
@@ -64,7 +64,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.cxy.demo.domain.ProductsDomain">
+  <update id="updateByPrimaryKeySelective" parameterType="com.cxy.demo.bean.ProductsDomain">
     update products_t
     <set>
       <if test="prodName != null">
@@ -82,7 +82,7 @@
     </set>
     where prod_id = #{prodId,jdbcType=VARCHAR}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.cxy.demo.domain.ProductsDomain">
+  <update id="updateByPrimaryKey" parameterType="com.cxy.demo.bean.ProductsDomain">
     update products_t
     set prod_name = #{prodName,jdbcType=VARCHAR},
       img_path = #{imgPath,jdbcType=VARCHAR},

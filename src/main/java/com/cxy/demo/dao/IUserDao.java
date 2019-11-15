@@ -2,7 +2,7 @@ package com.cxy.demo.dao;
 
 import java.util.List;
 
-import com.cxy.demo.domain.UserDomain;
+import com.cxy.demo.bean.UserDomain;
 
 public interface IUserDao {
     int deleteByPrimaryKey(Integer id);

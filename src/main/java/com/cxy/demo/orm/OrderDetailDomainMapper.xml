@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.cxy.demo.dao.IOrderDetailDao" >
-  <resultMap id="BaseResultMap" type="com.cxy.demo.domain.OrderDetailDomain" >
+  <resultMap id="BaseResultMap" type="com.cxy.demo.bean.OrderDetailDomain" >
     <result column="order_id" property="orderId" jdbcType="VARCHAR" />
     <result column="prod_id" property="prodId" jdbcType="VARCHAR" />
     <result column="prod_num" property="prodNum" jdbcType="INTEGER" />
   </resultMap>
-  <insert id="insert" parameterType="com.cxy.demo.domain.OrderDetailDomain" >
+  <insert id="insert" parameterType="com.cxy.demo.bean.OrderDetailDomain" >
     insert into order_detail (order_id, prod_id, prod_num
       )
     values (#{orderId,jdbcType=VARCHAR}, #{prodId,jdbcType=VARCHAR}, #{prodNum,jdbcType=INTEGER}
       )
   </insert>
-  <insert id="insertSelective" parameterType="com.cxy.demo.domain.OrderDetailDomain" >
+  <insert id="insertSelective" parameterType="com.cxy.demo.bean.OrderDetailDomain" >
     insert into order_detail
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="orderId != null" >

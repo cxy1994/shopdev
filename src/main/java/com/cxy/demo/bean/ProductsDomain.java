@@ -1,4 +1,4 @@
-package com.cxy.demo.domain;
+package com.cxy.demo.bean;
 
 import java.util.Date;
 

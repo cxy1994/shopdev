@@ -11,7 +11,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.alibaba.fastjson.JSON;
-import com.cxy.demo.domain.UserDomain;
+import com.cxy.demo.bean.UserDomain;
 import com.cxy.demo.service.interfaces.IUserService;
 
 @RunWith(SpringJUnit4ClassRunner.class)

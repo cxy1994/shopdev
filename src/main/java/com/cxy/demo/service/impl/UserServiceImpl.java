@@ -3,17 +3,15 @@ package com.cxy.demo.service.impl;
 import java.io.UnsupportedEncodingException;
 import java.security.NoSuchAlgorithmException;
 import java.util.List;
-import java.util.Map;
 
 import javax.annotation.Resource;
 
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
 import com.cxy.demo.dao.IUserDao;
-import com.cxy.demo.domain.UserDomain;
+import com.cxy.demo.bean.UserDomain;
 import com.cxy.demo.service.interfaces.IUserService;
 import com.cxy.demo.util.Md5Util;
-import com.cxy.demo.util.StaticValue;
 
 @Service("userService")
 public class UserServiceImpl implements IUserService {

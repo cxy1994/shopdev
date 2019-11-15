@@ -1,6 +1,6 @@
 package com.cxy.demo.dao;
 
-import com.cxy.demo.domain.OrderDomain;
+import com.cxy.demo.bean.OrderDomain;
 
 public interface IOrderDao {
     int deleteByPrimaryKey(String orderId);

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.cxy.demo.dao.IOrderDao" >
-  <resultMap id="BaseResultMap" type="com.cxy.demo.domain.OrderDomain" >
+  <resultMap id="BaseResultMap" type="com.cxy.demo.bean.OrderDomain" >
     <id column="order_id" property="orderId" jdbcType="VARCHAR" />
     <result column="customer_name" property="customerName" jdbcType="VARCHAR" />
     <result column="customer_add" property="customerAdd" jdbcType="VARCHAR" />
@@ -22,7 +22,7 @@
     delete from order_t
     where order_id = #{orderId,jdbcType=VARCHAR}
   </delete>
-  <insert id="insert" parameterType="com.cxy.demo.domain.OrderDomain" >
+  <insert id="insert" parameterType="com.cxy.demo.bean.OrderDomain" >
     insert into order_t (order_id, customer_name, customer_add, 
       customer_phone, customer_id, create_date
       )
@@ -30,7 +30,7 @@
       #{customerPhone,jdbcType=VARCHAR}, #{customerId,jdbcType=INTEGER}, #{createDate,jdbcType=DATE}
       )
   </insert>
-  <insert id="insertSelective" parameterType="com.cxy.demo.domain.OrderDomain" >
+  <insert id="insertSelective" parameterType="com.cxy.demo.bean.OrderDomain" >
     insert into order_t
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="orderId != null" >
@@ -73,7 +73,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.cxy.demo.domain.OrderDomain" >
+  <update id="updateByPrimaryKeySelective" parameterType="com.cxy.demo.bean.OrderDomain" >
     update order_t
     <set >
       <if test="customerName != null" >
@@ -94,7 +94,7 @@
     </set>
     where order_id = #{orderId,jdbcType=VARCHAR}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.cxy.demo.domain.OrderDomain" >
+  <update id="updateByPrimaryKey" parameterType="com.cxy.demo.bean.OrderDomain" >
     update order_t
     set customer_name = #{customerName,jdbcType=VARCHAR},
       customer_add = #{customerAdd,jdbcType=VARCHAR},

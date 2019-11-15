@@ -1,9 +1,8 @@
 package com.cxy.demo.service.interfaces;
 
 import java.util.List;
-import java.util.Map;
 
-import com.cxy.demo.domain.UserDomain;
+import com.cxy.demo.bean.UserDomain;
 
 public interface IUserService {
     public UserDomain getUserById(int userid) ;

@@ -9,7 +9,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.cxy.demo.domain.UserDomain;
+import com.cxy.demo.bean.UserDomain;
 import com.cxy.demo.service.interfaces.IUserService;
 
 /**

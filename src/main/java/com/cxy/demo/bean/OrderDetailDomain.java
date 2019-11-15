@@ -1,4 +1,4 @@
-package com.cxy.demo.domain;
+package com.cxy.demo.bean;
 
 public class OrderDetailDomain {
     private String orderId;
