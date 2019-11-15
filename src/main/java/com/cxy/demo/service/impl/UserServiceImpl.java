@@ -47,11 +47,9 @@ public class UserServiceImpl implements IUserService {
 		try {
 			password = util.EncoderByMd5(user.getPassword());
 		} catch (NoSuchAlgorithmException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			log.error(e);
 		} catch (UnsupportedEncodingException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			log.error(e);
 		}
 		user.setPassword(password);
 		return this.userDao.insert(user);

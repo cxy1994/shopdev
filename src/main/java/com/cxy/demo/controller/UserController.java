@@ -1,9 +1,6 @@
 package com.cxy.demo.controller;
 
-import java.util.List;
-
 import javax.annotation.Resource;
-import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServletRequest;
 
 import org.apache.log4j.Logger;
@@ -12,18 +9,15 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.cxy.demo.dao.IUserDao;
 import com.cxy.demo.domain.UserDomain;
-import com.cxy.demo.service.impl.UserServiceImpl;
 import com.cxy.demo.service.interfaces.IUserService;
-import com.cxy.demo.util.StaticValue;
 
 /**
  * 页面跳转控制类
  *
  * @author cxy
  */
-@ContextConfiguration(locations = {"classpath:spring-mybatis.xml"})
+@ContextConfiguration(locations = {"classpath:spring/config/spring-mybatis.xml"})
 @Controller
 @RequestMapping("/home")
 // 根节点url
