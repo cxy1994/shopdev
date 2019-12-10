@@ -191,6 +191,12 @@
             <artifactId>commons-codec</artifactId>
             <version>1.9</version>
         </dependency>
+        <!--excel导入工具-->
+        <dependency>
+            <groupId>net.oschina.likaixuan</groupId>
+            <artifactId>excelutil</artifactId>
+            <version>3.0.1</version>
+        </dependency>
     </dependencies>
 
 </project>
