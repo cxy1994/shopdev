@@ -17,7 +17,7 @@ import com.cxy.demo.service.interfaces.IUserService;
  *
  * @author cxy
  */
-@ContextConfiguration(locations = {"classpath:spring/config/spring-mybatis.xml"})
+@ContextConfiguration(locations = {"classpath:config/spring/spring-mybatis.xml"})
 @Controller
 @RequestMapping("/home")
 // 根节点url

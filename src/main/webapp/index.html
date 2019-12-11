@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="/src/lib/vue/vue.js"></script>
+    <script src="lib/vue/vue.js"></script>
 </head>
 <body>
     <div id="app">
@@ -30,6 +30,7 @@
 
     <div id="app-5">
         <p>{{ message }}</p>
+        <input v-model="message">
         <button v-on:click="reverseMessage">反转消息</button>
         <button v-on:click="clear">清空</button>
     </div>
