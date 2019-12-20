@@ -6,7 +6,9 @@ import java.util.List;
 
 import javax.annotation.Resource;
 
+import com.cxy.demo.dao.UserDao;
 import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.cxy.demo.dao.IUserDao;
 import com.cxy.demo.bean.UserDomain;
@@ -18,7 +20,7 @@ public class UserServiceImpl implements IUserService {
 	private static Logger log = Logger.getLogger(UserServiceImpl.class);
 
 	@Resource
-	private IUserDao userDao;
+	private UserDao userDao;
 
 	@Override
 	public UserDomain getUserById(int userId) {

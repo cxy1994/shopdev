@@ -8,6 +8,7 @@ import java.util.Properties;
  *
  */
 public class PropertyConfigurer extends org.springframework.beans.factory.config.PropertyPlaceholderConfigurer {
+    @Override
     protected void loadProperties(Properties props) throws IOException {
         super.loadProperties(props);
         try {
