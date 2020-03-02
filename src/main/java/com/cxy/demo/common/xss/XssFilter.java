@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.common.xss;
+package com.cxy.demo.common.xss;
 
 import lombok.extern.slf4j.Slf4j;
 

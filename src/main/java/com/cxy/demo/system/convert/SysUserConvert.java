@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.system.convert;
+package com.cxy.demo.system.convert;
 
-import io.geekidea.springbootplus.shiro.vo.LoginSysUserRedisVo;
-import io.geekidea.springbootplus.shiro.vo.LoginSysUserVo;
-import io.geekidea.springbootplus.system.entity.SysUser;
+import com.cxy.demo.shiro.vo.LoginSysUserRedisVo;
+import com.cxy.demo.shiro.vo.LoginSysUserVo;
+import com.cxy.demo.system.entity.SysUser;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

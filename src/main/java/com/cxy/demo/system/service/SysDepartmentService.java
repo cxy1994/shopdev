@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.system.service;
+package com.cxy.demo.system.service;
 
-import io.geekidea.springbootplus.common.service.BaseService;
-import io.geekidea.springbootplus.common.vo.Paging;
-import io.geekidea.springbootplus.system.entity.SysDepartment;
-import io.geekidea.springbootplus.system.param.SysDepartmentQueryParam;
-import io.geekidea.springbootplus.system.vo.SysDepartmentQueryVo;
-import io.geekidea.springbootplus.system.vo.SysDepartmentTreeVo;
+import com.cxy.demo.common.service.BaseService;
+import com.cxy.demo.common.vo.Paging;
+import com.cxy.demo.system.entity.SysDepartment;
+import com.cxy.demo.system.param.SysDepartmentQueryParam;
+import com.cxy.demo.system.vo.SysDepartmentQueryVo;
+import com.cxy.demo.system.vo.SysDepartmentTreeVo;
 
 import java.io.Serializable;
 import java.util.List;

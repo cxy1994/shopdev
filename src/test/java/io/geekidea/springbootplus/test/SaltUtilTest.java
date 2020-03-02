@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.test;
+package com.cxy.demo.test;
 
-import io.geekidea.springbootplus.shiro.util.SaltUtil;
+import com.cxy.demo.shiro.util.SaltUtil;
 
 /**
  * @author geekidea

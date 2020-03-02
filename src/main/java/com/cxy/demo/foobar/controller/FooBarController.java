@@ -1,11 +1,11 @@
-package io.geekidea.springbootplus.foobar.controller;
+package com.cxy.demo.foobar.controller;
 
-import io.geekidea.springbootplus.foobar.entity.FooBar;
-import io.geekidea.springbootplus.foobar.service.FooBarService;
-import io.geekidea.springbootplus.foobar.param.FooBarQueryParam;
-import io.geekidea.springbootplus.foobar.vo.FooBarQueryVo;
-import io.geekidea.springbootplus.common.api.ApiResult;
-import io.geekidea.springbootplus.common.controller.BaseController;
+import com.cxy.demo.foobar.entity.FooBar;
+import com.cxy.demo.foobar.service.FooBarService;
+import com.cxy.demo.foobar.param.FooBarQueryParam;
+import com.cxy.demo.foobar.vo.FooBarQueryVo;
+import com.cxy.demo.common.api.ApiResult;
+import com.cxy.demo.common.controller.BaseController;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
-import io.geekidea.springbootplus.common.vo.Paging;
-import io.geekidea.springbootplus.common.param.IdParam;
+import com.cxy.demo.common.vo.Paging;
+import com.cxy.demo.common.param.IdParam;
 
 /**
  * <pre>

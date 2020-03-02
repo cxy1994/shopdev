@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.shiro.util;
+package com.cxy.demo.shiro.util;
 
-import io.geekidea.springbootplus.shiro.jwt.JwtProperties;
+import com.cxy.demo.shiro.jwt.JwtProperties;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.shiro.crypto.SecureRandomNumberGenerator;

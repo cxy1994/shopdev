@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.common.api;
+package com.cxy.demo.common.api;
 
 /**
  * <p>

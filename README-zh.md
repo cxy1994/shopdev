@@ -166,7 +166,7 @@ public class SpringBootPlusGenerator {
         // 包信息
         codeGenerator
                 .setProjectPackagePath("io/geekidea/springbootplus")
-                .setParentPackage("io.geekidea.springbootplus");
+                .setParentPackage("com.cxy.demo");
 
         // 组件作者等配置
         codeGenerator
@@ -269,7 +269,7 @@ public class SpringBootPlusGenerator {
 @EnableTransactionManagement
 @EnableConfigurationProperties
 @EnableAdminServer
-@MapperScan({"io.geekidea.springbootplus.**.mapper"})
+@MapperScan({"com.cxy.demo.**.mapper"})
 @SpringBootApplication
 public class SpringBootPlusApplication {
 

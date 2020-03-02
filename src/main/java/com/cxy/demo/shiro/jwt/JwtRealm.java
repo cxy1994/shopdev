@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.shiro.jwt;
+package com.cxy.demo.shiro.jwt;
 
-import io.geekidea.springbootplus.shiro.cache.LoginRedisService;
-import io.geekidea.springbootplus.shiro.vo.LoginSysUserRedisVo;
+import com.cxy.demo.shiro.cache.LoginRedisService;
+import com.cxy.demo.shiro.vo.LoginSysUserRedisVo;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections4.SetUtils;
 import org.apache.commons.lang3.StringUtils;

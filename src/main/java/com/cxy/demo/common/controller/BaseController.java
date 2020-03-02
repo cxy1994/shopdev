@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.common.controller;
+package com.cxy.demo.common.controller;
 
-import io.geekidea.springbootplus.common.api.ApiController;
+import com.cxy.demo.common.api.ApiController;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;

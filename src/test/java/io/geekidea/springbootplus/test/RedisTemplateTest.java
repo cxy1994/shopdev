@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.test;
+package com.cxy.demo.test;
 
-import io.geekidea.springbootplus.constant.CommonRedisKey;
+import com.cxy.demo.constant.CommonRedisKey;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

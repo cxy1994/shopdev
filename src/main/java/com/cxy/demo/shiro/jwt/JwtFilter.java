@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.shiro.jwt;
+package com.cxy.demo.shiro.jwt;
 
-import io.geekidea.springbootplus.common.api.ApiCode;
-import io.geekidea.springbootplus.common.api.ApiResult;
-import io.geekidea.springbootplus.shiro.cache.LoginRedisService;
-import io.geekidea.springbootplus.shiro.service.LoginService;
-import io.geekidea.springbootplus.shiro.util.JwtUtil;
-import io.geekidea.springbootplus.shiro.util.JwtTokenUtil;
-import io.geekidea.springbootplus.util.HttpServletResponseUtil;
+import com.cxy.demo.common.api.ApiCode;
+import com.cxy.demo.common.api.ApiResult;
+import com.cxy.demo.shiro.cache.LoginRedisService;
+import com.cxy.demo.shiro.service.LoginService;
+import com.cxy.demo.shiro.util.JwtUtil;
+import com.cxy.demo.shiro.util.JwtTokenUtil;
+import com.cxy.demo.util.HttpServletResponseUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.shiro.authc.AuthenticationException;

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus;
+package com.cxy.demo;
 
 import de.codecentric.boot.admin.server.config.EnableAdminServer;
-import io.geekidea.springbootplus.util.PrintApplicationInfo;
+import com.cxy.demo.util.PrintApplicationInfo;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.config.json.jackson;
+package com.cxy.demo.config.json.jackson;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -29,13 +29,13 @@ import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateSerializer;
 import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateTimeSerializer;
 import com.fasterxml.jackson.datatype.jsr310.ser.LocalTimeSerializer;
 import com.fasterxml.jackson.module.paramnames.ParameterNamesModule;
-import io.geekidea.springbootplus.config.json.jackson.deserializer.JacksonDateDeserializer;
-import io.geekidea.springbootplus.config.json.jackson.deserializer.JacksonDoubleDeserializer;
-import io.geekidea.springbootplus.config.json.jackson.serializer.JacksonDateSerializer;
-import io.geekidea.springbootplus.config.json.jackson.serializer.JacksonIntegerDeserializer;
-import io.geekidea.springbootplus.constant.DatePattern;
-import io.geekidea.springbootplus.common.xss.XssJacksonDeserializer;
-import io.geekidea.springbootplus.common.xss.XssJacksonSerializer;
+import com.cxy.demo.config.json.jackson.deserializer.JacksonDateDeserializer;
+import com.cxy.demo.config.json.jackson.deserializer.JacksonDoubleDeserializer;
+import com.cxy.demo.config.json.jackson.serializer.JacksonDateSerializer;
+import com.cxy.demo.config.json.jackson.serializer.JacksonIntegerDeserializer;
+import com.cxy.demo.constant.DatePattern;
+import com.cxy.demo.common.xss.XssJacksonDeserializer;
+import com.cxy.demo.common.xss.XssJacksonSerializer;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;

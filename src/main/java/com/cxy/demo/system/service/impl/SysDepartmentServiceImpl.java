@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.system.service.impl;
+package com.cxy.demo.system.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.metadata.OrderItem;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import io.geekidea.springbootplus.common.service.impl.BaseServiceImpl;
-import io.geekidea.springbootplus.common.vo.Paging;
-import io.geekidea.springbootplus.enums.StateEnum;
-import io.geekidea.springbootplus.system.convert.SysDepartmentConvert;
-import io.geekidea.springbootplus.system.entity.SysDepartment;
-import io.geekidea.springbootplus.system.mapper.SysDepartmentMapper;
-import io.geekidea.springbootplus.system.param.SysDepartmentQueryParam;
-import io.geekidea.springbootplus.system.service.SysDepartmentService;
-import io.geekidea.springbootplus.system.vo.SysDepartmentQueryVo;
-import io.geekidea.springbootplus.system.vo.SysDepartmentTreeVo;
+import com.cxy.demo.common.service.impl.BaseServiceImpl;
+import com.cxy.demo.common.vo.Paging;
+import com.cxy.demo.enums.StateEnum;
+import com.cxy.demo.system.convert.SysDepartmentConvert;
+import com.cxy.demo.system.entity.SysDepartment;
+import com.cxy.demo.system.mapper.SysDepartmentMapper;
+import com.cxy.demo.system.param.SysDepartmentQueryParam;
+import com.cxy.demo.system.service.SysDepartmentService;
+import com.cxy.demo.system.vo.SysDepartmentQueryVo;
+import com.cxy.demo.system.vo.SysDepartmentTreeVo;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections.CollectionUtils;
 import org.springframework.beans.factory.annotation.Autowired;

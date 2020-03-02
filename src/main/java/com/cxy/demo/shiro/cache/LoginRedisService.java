@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.shiro.cache;
+package com.cxy.demo.shiro.cache;
 
-import io.geekidea.springbootplus.shiro.jwt.JwtToken;
-import io.geekidea.springbootplus.shiro.vo.LoginSysUserRedisVo;
-import io.geekidea.springbootplus.shiro.vo.LoginSysUserVo;
+import com.cxy.demo.shiro.jwt.JwtToken;
+import com.cxy.demo.shiro.vo.LoginSysUserRedisVo;
+import com.cxy.demo.shiro.vo.LoginSysUserVo;
 
 /**
  * 登陆信息Redis缓存操作服务

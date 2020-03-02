@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.test;
+package com.cxy.demo.test;
 
 /**
  * spring-boot-plus代码生成器入口类
@@ -37,7 +37,7 @@ public class SpringBootPlusGenerator {
         // 包信息
         codeGenerator
                 .setProjectPackagePath("io/geekidea/springbootplus")
-                .setParentPackage("io.geekidea.springbootplus");
+                .setParentPackage("com.cxy.demo");
 
         // 组件作者等配置
         codeGenerator

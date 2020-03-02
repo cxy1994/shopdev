@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.resource.interceptor;
+package com.cxy.demo.resource.interceptor;
 
-import io.geekidea.springbootplus.common.api.ApiResult;
-import io.geekidea.springbootplus.core.properties.SpringBootPlusProperties;
-import io.geekidea.springbootplus.util.HttpServletResponseUtil;
+import com.cxy.demo.common.api.ApiResult;
+import com.cxy.demo.core.properties.SpringBootPlusProperties;
+import com.cxy.demo.util.HttpServletResponseUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.method.HandlerMethod;

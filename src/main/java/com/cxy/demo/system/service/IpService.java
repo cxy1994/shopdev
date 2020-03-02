@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.system.service;
+package com.cxy.demo.system.service;
 
-import io.geekidea.springbootplus.system.entity.Ip;
-import io.geekidea.springbootplus.common.service.BaseService;
-import io.geekidea.springbootplus.system.param.IpQueryParam;
-import io.geekidea.springbootplus.system.vo.IpQueryVo;
-import io.geekidea.springbootplus.common.vo.Paging;
+import com.cxy.demo.system.entity.Ip;
+import com.cxy.demo.common.service.BaseService;
+import com.cxy.demo.system.param.IpQueryParam;
+import com.cxy.demo.system.vo.IpQueryVo;
+import com.cxy.demo.common.vo.Paging;
 
 import java.io.Serializable;
 

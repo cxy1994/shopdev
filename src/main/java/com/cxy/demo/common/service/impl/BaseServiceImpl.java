@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.common.service.impl;
+package com.cxy.demo.common.service.impl;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.core.metadata.OrderItem;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import io.geekidea.springbootplus.common.service.BaseService;
-import io.geekidea.springbootplus.common.param.OrderQueryParam;
-import io.geekidea.springbootplus.common.param.QueryParam;
+import com.cxy.demo.common.service.BaseService;
+import com.cxy.demo.common.param.OrderQueryParam;
+import com.cxy.demo.common.param.QueryParam;
 import org.apache.commons.collections.CollectionUtils;
 
 import java.util.Arrays;

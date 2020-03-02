@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.common.enums;
+package com.cxy.demo.common.enums;
 
 /**
  * 枚举类型父接口

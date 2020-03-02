@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.common.service;
+package com.cxy.demo.common.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 

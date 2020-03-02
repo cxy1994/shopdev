@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.system.param;
+package com.cxy.demo.system.param;
 
 import io.swagger.annotations.ApiModel;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
 
-import io.geekidea.springbootplus.common.param.OrderQueryParam;
+import com.cxy.demo.common.param.OrderQueryParam;
 
 /**
  * <pre>

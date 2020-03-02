@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.common.exception;
+package com.cxy.demo.common.exception;
 
 import com.alibaba.fastjson.JSON;
-import io.geekidea.springbootplus.common.api.ApiCode;
-import io.geekidea.springbootplus.common.api.ApiResult;
-import io.geekidea.springbootplus.system.exception.VerificationCodeException;
+import com.cxy.demo.common.api.ApiCode;
+import com.cxy.demo.common.api.ApiResult;
+import com.cxy.demo.system.exception.VerificationCodeException;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authz.UnauthenticatedException;

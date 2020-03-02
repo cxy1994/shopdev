@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.system.mapper;
+package com.cxy.demo.system.mapper;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import io.geekidea.springbootplus.system.entity.SysLog;
-import io.geekidea.springbootplus.system.param.SysLogQueryParam;
-import io.geekidea.springbootplus.system.vo.SysLogQueryVo;
+import com.cxy.demo.system.entity.SysLog;
+import com.cxy.demo.system.param.SysLogQueryParam;
+import com.cxy.demo.system.vo.SysLogQueryVo;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 

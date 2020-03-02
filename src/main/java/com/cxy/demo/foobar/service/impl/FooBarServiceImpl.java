@@ -1,12 +1,12 @@
-package io.geekidea.springbootplus.foobar.service.impl;
+package com.cxy.demo.foobar.service.impl;
 
-import io.geekidea.springbootplus.foobar.entity.FooBar;
-import io.geekidea.springbootplus.foobar.mapper.FooBarMapper;
-import io.geekidea.springbootplus.foobar.service.FooBarService;
-import io.geekidea.springbootplus.foobar.param.FooBarQueryParam;
-import io.geekidea.springbootplus.foobar.vo.FooBarQueryVo;
-import io.geekidea.springbootplus.common.service.impl.BaseServiceImpl;
-import io.geekidea.springbootplus.common.vo.Paging;
+import com.cxy.demo.foobar.entity.FooBar;
+import com.cxy.demo.foobar.mapper.FooBarMapper;
+import com.cxy.demo.foobar.service.FooBarService;
+import com.cxy.demo.foobar.param.FooBarQueryParam;
+import com.cxy.demo.foobar.vo.FooBarQueryVo;
+import com.cxy.demo.common.service.impl.BaseServiceImpl;
+import com.cxy.demo.common.vo.Paging;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.test;
+package com.cxy.demo.test;
 
 import org.springframework.util.AntPathMatcher;
 

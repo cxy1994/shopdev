@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.common.exception;
+package com.cxy.demo.common.exception;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

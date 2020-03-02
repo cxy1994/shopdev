@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.core.config;
+package com.cxy.demo.core.config;
 
 import com.alibaba.fastjson.JSON;
-import io.geekidea.springbootplus.core.properties.SpringBootPlusInterceptorProperties;
-import io.geekidea.springbootplus.core.properties.SpringBootPlusProperties;
-import io.geekidea.springbootplus.interceptor.PermissionInterceptor;
-import io.geekidea.springbootplus.resource.interceptor.DownloadInterceptor;
-import io.geekidea.springbootplus.resource.interceptor.ResourceInterceptor;
-import io.geekidea.springbootplus.resource.interceptor.UploadInterceptor;
-import io.geekidea.springbootplus.util.IniUtil;
+import com.cxy.demo.core.properties.SpringBootPlusInterceptorProperties;
+import com.cxy.demo.core.properties.SpringBootPlusProperties;
+import com.cxy.demo.interceptor.PermissionInterceptor;
+import com.cxy.demo.resource.interceptor.DownloadInterceptor;
+import com.cxy.demo.resource.interceptor.ResourceInterceptor;
+import com.cxy.demo.resource.interceptor.UploadInterceptor;
+import com.cxy.demo.util.IniUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;

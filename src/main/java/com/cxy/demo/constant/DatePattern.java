@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.constant;
+package com.cxy.demo.constant;
 
 /**
  * <p>

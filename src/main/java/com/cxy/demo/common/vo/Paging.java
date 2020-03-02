@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.common.vo;
+package com.cxy.demo.common.vo;
 
 import com.alibaba.fastjson.annotation.JSONField;
 import com.baomidou.mybatisplus.core.metadata.IPage;

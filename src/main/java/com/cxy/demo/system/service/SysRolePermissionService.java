@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.system.service;
+package com.cxy.demo.system.service;
 
-import io.geekidea.springbootplus.common.service.BaseService;
-import io.geekidea.springbootplus.system.entity.SysRolePermission;
+import com.cxy.demo.common.service.BaseService;
+import com.cxy.demo.system.entity.SysRolePermission;
 import org.apache.commons.collections4.SetUtils;
 
 import java.util.List;

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.shiro.convert;
+package com.cxy.demo.shiro.convert;
 
-import io.geekidea.springbootplus.shiro.jwt.JwtToken;
-import io.geekidea.springbootplus.shiro.vo.JwtTokenRedisVo;
+import com.cxy.demo.shiro.jwt.JwtToken;
+import com.cxy.demo.shiro.vo.JwtTokenRedisVo;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.common.controller;
+package com.cxy.demo.common.controller;
 
-import io.geekidea.springbootplus.common.api.ApiResult;
-import io.geekidea.springbootplus.common.enums.BaseEnum;
-import io.geekidea.springbootplus.common.vo.EnumVo;
-import io.geekidea.springbootplus.util.BaseEnumUtil;
+import com.cxy.demo.common.api.ApiResult;
+import com.cxy.demo.common.enums.BaseEnum;
+import com.cxy.demo.common.vo.EnumVo;
+import com.cxy.demo.util.BaseEnumUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.ArrayUtils;

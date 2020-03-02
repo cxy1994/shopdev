@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.common.entity;
+package com.cxy.demo.common.entity;
 
 import io.swagger.annotations.ApiModel;
 

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.shiro.jwt;
+package com.cxy.demo.shiro.jwt;
 
 import com.auth0.jwt.interfaces.DecodedJWT;
-import io.geekidea.springbootplus.shiro.util.JwtUtil;
-import io.geekidea.springbootplus.util.IpUtil;
+import com.cxy.demo.shiro.util.JwtUtil;
+import com.cxy.demo.util.IpUtil;
 import lombok.Data;
 import lombok.experimental.Accessors;
 import org.apache.shiro.authc.HostAuthenticationToken;

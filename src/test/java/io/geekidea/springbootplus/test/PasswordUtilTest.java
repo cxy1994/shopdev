@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.test;
+package com.cxy.demo.test;
 
-import io.geekidea.springbootplus.util.PasswordUtil;
+import com.cxy.demo.util.PasswordUtil;
 import org.junit.Assert;
 
 /**

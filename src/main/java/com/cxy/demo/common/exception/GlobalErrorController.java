@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.common.exception;
+package com.cxy.demo.common.exception;
 
-import io.geekidea.springbootplus.common.api.ApiCode;
-import io.geekidea.springbootplus.common.api.ApiResult;
+import com.cxy.demo.common.api.ApiCode;
+import com.cxy.demo.common.api.ApiResult;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.web.servlet.error.ErrorController;
 import org.springframework.web.bind.annotation.RequestMapping;

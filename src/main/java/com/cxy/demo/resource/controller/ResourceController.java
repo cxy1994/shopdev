@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.resource.controller;
+package com.cxy.demo.resource.controller;
 
-import io.geekidea.springbootplus.common.api.ApiResult;
-import io.geekidea.springbootplus.core.properties.SpringBootPlusProperties;
+import com.cxy.demo.common.api.ApiResult;
+import com.cxy.demo.core.properties.SpringBootPlusProperties;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

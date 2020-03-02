@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.shiro.jwt;
+package com.cxy.demo.shiro.jwt;
 
-import io.geekidea.springbootplus.constant.CommonConstant;
+import com.cxy.demo.constant.CommonConstant;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

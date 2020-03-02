@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.util;
+package com.cxy.demo.util;
 
 import cn.hutool.http.useragent.UserAgent;
 import cn.hutool.http.useragent.UserAgentUtil;
-import io.geekidea.springbootplus.shiro.vo.ClientInfo;
-import io.geekidea.springbootplus.shiro.vo.DeviceInfo;
+import com.cxy.demo.shiro.vo.ClientInfo;
+import com.cxy.demo.shiro.vo.DeviceInfo;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.regex.Matcher;

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.system.service.impl;
+package com.cxy.demo.system.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import io.geekidea.springbootplus.common.service.impl.BaseServiceImpl;
-import io.geekidea.springbootplus.enums.StateEnum;
-import io.geekidea.springbootplus.system.entity.SysRolePermission;
-import io.geekidea.springbootplus.system.mapper.SysRolePermissionMapper;
-import io.geekidea.springbootplus.system.service.SysRolePermissionService;
+import com.cxy.demo.common.service.impl.BaseServiceImpl;
+import com.cxy.demo.enums.StateEnum;
+import com.cxy.demo.system.entity.SysRolePermission;
+import com.cxy.demo.system.mapper.SysRolePermissionMapper;
+import com.cxy.demo.system.service.SysRolePermissionService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections4.SetUtils;
 import org.springframework.beans.factory.annotation.Autowired;

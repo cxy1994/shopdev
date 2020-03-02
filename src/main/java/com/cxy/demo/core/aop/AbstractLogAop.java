@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.core.aop;
+package com.cxy.demo.core.aop;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import io.geekidea.springbootplus.common.api.ApiCode;
-import io.geekidea.springbootplus.common.api.ApiResult;
-import io.geekidea.springbootplus.core.properties.SpringBootPlusAopProperties;
-import io.geekidea.springbootplus.shiro.util.JwtTokenUtil;
-import io.geekidea.springbootplus.util.AnsiUtil;
-import io.geekidea.springbootplus.util.DateUtil;
-import io.geekidea.springbootplus.util.IpUtil;
-import io.geekidea.springbootplus.util.Jackson;
+import com.cxy.demo.common.api.ApiCode;
+import com.cxy.demo.common.api.ApiResult;
+import com.cxy.demo.core.properties.SpringBootPlusAopProperties;
+import com.cxy.demo.shiro.util.JwtTokenUtil;
+import com.cxy.demo.util.AnsiUtil;
+import com.cxy.demo.util.DateUtil;
+import com.cxy.demo.util.IpUtil;
+import com.cxy.demo.util.Jackson;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.ArrayUtils;

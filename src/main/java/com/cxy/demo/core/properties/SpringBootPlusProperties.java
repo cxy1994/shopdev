@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.core.properties;
+package com.cxy.demo.core.properties;
 
-import io.geekidea.springbootplus.core.config.SpringBootPlusWebMvcConfig;
-import io.geekidea.springbootplus.shiro.config.ShiroProperties;
-import io.geekidea.springbootplus.shiro.jwt.JwtProperties;
+import com.cxy.demo.core.config.SpringBootPlusWebMvcConfig;
+import com.cxy.demo.shiro.config.ShiroProperties;
+import com.cxy.demo.shiro.jwt.JwtProperties;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.NestedConfigurationProperty;

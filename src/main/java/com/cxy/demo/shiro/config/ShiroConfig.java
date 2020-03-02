@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.shiro.config;
+package com.cxy.demo.shiro.config;
 
 import com.alibaba.fastjson.JSON;
-import io.geekidea.springbootplus.core.properties.SpringBootPlusFilterProperties;
-import io.geekidea.springbootplus.filter.RequestPathFilter;
-import io.geekidea.springbootplus.shiro.cache.LoginRedisService;
-import io.geekidea.springbootplus.shiro.exception.ShiroConfigException;
-import io.geekidea.springbootplus.shiro.jwt.JwtCredentialsMatcher;
-import io.geekidea.springbootplus.shiro.jwt.JwtFilter;
-import io.geekidea.springbootplus.shiro.jwt.JwtProperties;
-import io.geekidea.springbootplus.shiro.jwt.JwtRealm;
-import io.geekidea.springbootplus.shiro.service.LoginService;
-import io.geekidea.springbootplus.util.IniUtil;
+import com.cxy.demo.core.properties.SpringBootPlusFilterProperties;
+import com.cxy.demo.filter.RequestPathFilter;
+import com.cxy.demo.shiro.cache.LoginRedisService;
+import com.cxy.demo.shiro.exception.ShiroConfigException;
+import com.cxy.demo.shiro.jwt.JwtCredentialsMatcher;
+import com.cxy.demo.shiro.jwt.JwtFilter;
+import com.cxy.demo.shiro.jwt.JwtProperties;
+import com.cxy.demo.shiro.jwt.JwtRealm;
+import com.cxy.demo.shiro.service.LoginService;
+import com.cxy.demo.util.IniUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.collections4.MapUtils;

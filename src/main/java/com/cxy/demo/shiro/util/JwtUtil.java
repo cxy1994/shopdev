@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.shiro.util;
+package com.cxy.demo.shiro.util;
 
 import com.alibaba.fastjson.JSON;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.interfaces.DecodedJWT;
-import io.geekidea.springbootplus.constant.CommonConstant;
-import io.geekidea.springbootplus.shiro.jwt.JwtProperties;
-import io.geekidea.springbootplus.util.UUIDUtil;
+import com.cxy.demo.constant.CommonConstant;
+import com.cxy.demo.shiro.jwt.JwtProperties;
+import com.cxy.demo.util.UUIDUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.time.DateUtils;

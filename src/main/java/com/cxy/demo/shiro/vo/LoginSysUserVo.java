@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.shiro.vo;
+package com.cxy.demo.shiro.vo;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

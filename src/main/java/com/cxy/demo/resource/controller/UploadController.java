@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.resource.controller;
+package com.cxy.demo.resource.controller;
 
-import io.geekidea.springbootplus.common.api.ApiResult;
-import io.geekidea.springbootplus.common.param.IdParam;
-import io.geekidea.springbootplus.core.properties.SpringBootPlusProperties;
-import io.geekidea.springbootplus.system.vo.SysLogQueryVo;
-import io.geekidea.springbootplus.util.UploadUtil;
+import com.cxy.demo.common.api.ApiResult;
+import com.cxy.demo.common.param.IdParam;
+import com.cxy.demo.core.properties.SpringBootPlusProperties;
+import com.cxy.demo.system.vo.SysLogQueryVo;
+import com.cxy.demo.util.UploadUtil;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FilenameUtils;

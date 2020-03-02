@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.util;
+package com.cxy.demo.util;
 
-import io.geekidea.springbootplus.common.enums.BaseEnum;
-import io.geekidea.springbootplus.common.vo.EnumVo;
+import com.cxy.demo.common.enums.BaseEnum;
+import com.cxy.demo.common.vo.EnumVo;
 import org.apache.commons.collections4.MapUtils;
 import org.apache.commons.lang3.StringUtils;
 

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.common.constraints;
+package com.cxy.demo.common.constraints;
 
-import io.geekidea.springbootplus.common.enums.BaseEnum;
-import io.geekidea.springbootplus.common.exception.BusinessException;
-import io.geekidea.springbootplus.util.BaseEnumUtil;
+import com.cxy.demo.common.enums.BaseEnum;
+import com.cxy.demo.common.exception.BusinessException;
+import com.cxy.demo.util.BaseEnumUtil;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;

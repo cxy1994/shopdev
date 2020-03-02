@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.config.json.jackson.serializer;
+package com.cxy.demo.config.json.jackson.serializer;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.JsonDeserializer;
-import io.geekidea.springbootplus.config.converter.StringToIntegerUtil;
+import com.cxy.demo.config.converter.StringToIntegerUtil;
 
 import java.io.IOException;
 

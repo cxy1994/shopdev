@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.example;
+package com.cxy.demo.example;
 
-import io.geekidea.springbootplus.common.api.ApiResult;
+import com.cxy.demo.common.api.ApiResult;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;

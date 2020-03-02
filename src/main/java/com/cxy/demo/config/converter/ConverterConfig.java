@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.config.converter;
+package com.cxy.demo.config.converter;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

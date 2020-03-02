@@ -1,10 +1,10 @@
-package io.geekidea.springbootplus.foobar.service;
+package com.cxy.demo.foobar.service;
 
-import io.geekidea.springbootplus.foobar.entity.FooBar;
-import io.geekidea.springbootplus.common.service.BaseService;
-import io.geekidea.springbootplus.foobar.param.FooBarQueryParam;
-import io.geekidea.springbootplus.foobar.vo.FooBarQueryVo;
-import io.geekidea.springbootplus.common.vo.Paging;
+import com.cxy.demo.foobar.entity.FooBar;
+import com.cxy.demo.common.service.BaseService;
+import com.cxy.demo.foobar.param.FooBarQueryParam;
+import com.cxy.demo.foobar.vo.FooBarQueryVo;
+import com.cxy.demo.common.vo.Paging;
 
 import java.io.Serializable;
 

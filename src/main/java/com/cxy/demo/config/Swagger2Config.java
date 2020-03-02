@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.config;
+package com.cxy.demo.config;
 
-import io.geekidea.springbootplus.shiro.util.JwtTokenUtil;
+import com.cxy.demo.shiro.util.JwtTokenUtil;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

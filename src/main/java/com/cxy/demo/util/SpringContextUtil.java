@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.util;
+package com.cxy.demo.util;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

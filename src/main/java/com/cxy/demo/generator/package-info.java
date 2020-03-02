@@ -18,4 +18,4 @@
  * @author geekidea
  * @date 2019-10-11
  **/
-package io.geekidea.springbootplus.generator;
+package com.cxy.demo.generator;

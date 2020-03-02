@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.shiro.exception;
+package com.cxy.demo.shiro.exception;
 
-import io.geekidea.springbootplus.common.exception.SpringBootPlusException;
+import com.cxy.demo.common.exception.SpringBootPlusException;
 
 /**
  * Shiro配置异常

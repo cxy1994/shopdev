@@ -19,4 +19,4 @@
  * @author geekidea
  * @date 2018-11-08
  */
-package io.geekidea.springbootplus.util;
+package com.cxy.demo.util;

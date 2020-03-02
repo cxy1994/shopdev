@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.aop;
+package com.cxy.demo.aop;
 
-import io.geekidea.springbootplus.core.aop.AbstractLogAop;
+import com.cxy.demo.core.aop.AbstractLogAop;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -40,7 +40,7 @@ public class LogAop extends AbstractLogAop {
     /**
      * 切点
      */
-    private static final String POINTCUT = "execution(public * io.geekidea.springbootplus..*.controller..*.*(..))";
+    private static final String POINTCUT = "execution(public * com.cxy.demo..*.controller..*.*(..))";
 
     @Around(POINTCUT)
     @Override

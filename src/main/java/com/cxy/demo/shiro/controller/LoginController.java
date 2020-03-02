@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.shiro.controller;
+package com.cxy.demo.shiro.controller;
 
-import io.geekidea.springbootplus.common.api.ApiResult;
-import io.geekidea.springbootplus.shiro.param.LoginParam;
-import io.geekidea.springbootplus.shiro.service.LoginService;
-import io.geekidea.springbootplus.shiro.util.JwtTokenUtil;
-import io.geekidea.springbootplus.system.vo.LoginSysUserTokenVo;
+import com.cxy.demo.common.api.ApiResult;
+import com.cxy.demo.shiro.param.LoginParam;
+import com.cxy.demo.shiro.service.LoginService;
+import com.cxy.demo.shiro.util.JwtTokenUtil;
+import com.cxy.demo.system.vo.LoginSysUserTokenVo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;

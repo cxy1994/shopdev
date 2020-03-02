@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.geekidea.springbootplus.core.config;
+package com.cxy.demo.core.config;
 
-import io.geekidea.springbootplus.core.properties.*;
+import com.cxy.demo.core.properties.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Configuration;

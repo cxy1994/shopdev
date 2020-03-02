@@ -1,4 +1,4 @@
-package io.geekidea.springbootplus.foobar.vo;
+package com.cxy.demo.foobar.vo;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

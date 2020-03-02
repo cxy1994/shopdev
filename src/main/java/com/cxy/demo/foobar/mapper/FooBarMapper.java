@@ -1,11 +1,11 @@
-package io.geekidea.springbootplus.foobar.mapper;
+package com.cxy.demo.foobar.mapper;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import io.geekidea.springbootplus.foobar.entity.FooBar;
-import io.geekidea.springbootplus.foobar.param.FooBarQueryParam;
-import io.geekidea.springbootplus.foobar.vo.FooBarQueryVo;
+import com.cxy.demo.foobar.entity.FooBar;
+import com.cxy.demo.foobar.param.FooBarQueryParam;
+import com.cxy.demo.foobar.vo.FooBarQueryVo;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 

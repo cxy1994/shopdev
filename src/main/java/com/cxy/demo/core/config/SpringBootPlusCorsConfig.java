@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.core.config;
+package com.cxy.demo.core.config;
 
-import io.geekidea.springbootplus.core.properties.SpringBootPlusCorsProperties;
+import com.cxy.demo.core.properties.SpringBootPlusCorsProperties;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;

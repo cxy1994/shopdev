@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.system.service.impl;
+package com.cxy.demo.system.service.impl;
 
-import io.geekidea.springbootplus.system.entity.Ip;
-import io.geekidea.springbootplus.system.mapper.IpMapper;
-import io.geekidea.springbootplus.system.service.IpService;
-import io.geekidea.springbootplus.system.param.IpQueryParam;
-import io.geekidea.springbootplus.system.vo.IpQueryVo;
-import io.geekidea.springbootplus.common.service.impl.BaseServiceImpl;
-import io.geekidea.springbootplus.common.vo.Paging;
+import com.cxy.demo.system.entity.Ip;
+import com.cxy.demo.system.mapper.IpMapper;
+import com.cxy.demo.system.service.IpService;
+import com.cxy.demo.system.param.IpQueryParam;
+import com.cxy.demo.system.vo.IpQueryVo;
+import com.cxy.demo.common.service.impl.BaseServiceImpl;
+import com.cxy.demo.common.vo.Paging;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.shiro.jwt;
+package com.cxy.demo.shiro.jwt;
 
-import io.geekidea.springbootplus.shiro.util.JwtUtil;
+import com.cxy.demo.shiro.util.JwtUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;

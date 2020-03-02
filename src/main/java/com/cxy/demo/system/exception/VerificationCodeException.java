@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.system.exception;
+package com.cxy.demo.system.exception;
 
-import io.geekidea.springbootplus.common.exception.SpringBootPlusException;
+import com.cxy.demo.common.exception.SpringBootPlusException;
 
 /**
  * 验证码校验异常

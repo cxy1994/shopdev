@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.common.param;
+package com.cxy.demo.common.param;
 
 import com.baomidou.mybatisplus.core.metadata.OrderItem;
 import io.swagger.annotations.ApiModel;

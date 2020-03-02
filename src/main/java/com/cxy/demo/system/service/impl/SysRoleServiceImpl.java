@@ -14,29 +14,29 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.system.service.impl;
+package com.cxy.demo.system.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.metadata.OrderItem;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import io.geekidea.springbootplus.common.exception.BusinessException;
-import io.geekidea.springbootplus.common.exception.DaoException;
-import io.geekidea.springbootplus.common.service.impl.BaseServiceImpl;
-import io.geekidea.springbootplus.common.vo.Paging;
-import io.geekidea.springbootplus.enums.StateEnum;
-import io.geekidea.springbootplus.system.convert.SysRoleConvert;
-import io.geekidea.springbootplus.system.entity.SysRole;
-import io.geekidea.springbootplus.system.mapper.SysRoleMapper;
-import io.geekidea.springbootplus.system.param.SysRoleQueryParam;
-import io.geekidea.springbootplus.system.param.sysrole.AddSysRoleParam;
-import io.geekidea.springbootplus.system.param.sysrole.UpdateSysRoleParam;
-import io.geekidea.springbootplus.system.service.SysPermissionService;
-import io.geekidea.springbootplus.system.service.SysRolePermissionService;
-import io.geekidea.springbootplus.system.service.SysRoleService;
-import io.geekidea.springbootplus.system.service.SysUserService;
-import io.geekidea.springbootplus.system.vo.SysRoleQueryVo;
+import com.cxy.demo.common.exception.BusinessException;
+import com.cxy.demo.common.exception.DaoException;
+import com.cxy.demo.common.service.impl.BaseServiceImpl;
+import com.cxy.demo.common.vo.Paging;
+import com.cxy.demo.enums.StateEnum;
+import com.cxy.demo.system.convert.SysRoleConvert;
+import com.cxy.demo.system.entity.SysRole;
+import com.cxy.demo.system.mapper.SysRoleMapper;
+import com.cxy.demo.system.param.SysRoleQueryParam;
+import com.cxy.demo.system.param.sysrole.AddSysRoleParam;
+import com.cxy.demo.system.param.sysrole.UpdateSysRoleParam;
+import com.cxy.demo.system.service.SysPermissionService;
+import com.cxy.demo.system.service.SysRolePermissionService;
+import com.cxy.demo.system.service.SysRoleService;
+import com.cxy.demo.system.service.SysUserService;
+import com.cxy.demo.system.vo.SysRoleQueryVo;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.collections4.SetUtils;

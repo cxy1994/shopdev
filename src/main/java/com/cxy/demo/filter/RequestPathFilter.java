@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.filter;
+package com.cxy.demo.filter;
 
-import io.geekidea.springbootplus.core.properties.SpringBootPlusFilterProperties;
+import com.cxy.demo.core.properties.SpringBootPlusFilterProperties;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.ArrayUtils;
 import org.springframework.util.AntPathMatcher;

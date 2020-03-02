@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.system.service;
+package com.cxy.demo.system.service;
 
-import io.geekidea.springbootplus.system.entity.SysLog;
-import io.geekidea.springbootplus.common.service.BaseService;
-import io.geekidea.springbootplus.system.param.SysLogQueryParam;
-import io.geekidea.springbootplus.system.vo.SysLogQueryVo;
-import io.geekidea.springbootplus.common.vo.Paging;
+import com.cxy.demo.system.entity.SysLog;
+import com.cxy.demo.common.service.BaseService;
+import com.cxy.demo.system.param.SysLogQueryParam;
+import com.cxy.demo.system.vo.SysLogQueryVo;
+import com.cxy.demo.common.vo.Paging;
 
 import java.io.Serializable;
 

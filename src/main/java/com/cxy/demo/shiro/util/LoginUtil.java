@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.shiro.util;
+package com.cxy.demo.shiro.util;
 
-import io.geekidea.springbootplus.constant.CommonRedisKey;
-import io.geekidea.springbootplus.shiro.vo.LoginSysUserRedisVo;
+import com.cxy.demo.constant.CommonRedisKey;
+import com.cxy.demo.shiro.vo.LoginSysUserRedisVo;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.data.redis.core.RedisTemplate;

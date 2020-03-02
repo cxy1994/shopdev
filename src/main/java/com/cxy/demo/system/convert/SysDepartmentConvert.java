@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.system.convert;
+package com.cxy.demo.system.convert;
 
-import io.geekidea.springbootplus.system.entity.SysDepartment;
-import io.geekidea.springbootplus.system.vo.SysDepartmentTreeVo;
+import com.cxy.demo.system.entity.SysDepartment;
+import com.cxy.demo.system.vo.SysDepartmentTreeVo;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

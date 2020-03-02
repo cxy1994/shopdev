@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.system.controller;
+package com.cxy.demo.system.controller;
 
-import io.geekidea.springbootplus.common.api.ApiResult;
-import io.geekidea.springbootplus.constant.CommonConstant;
-import io.geekidea.springbootplus.constant.CommonRedisKey;
-import io.geekidea.springbootplus.util.UUIDUtil;
-import io.geekidea.springbootplus.util.VerificationCode;
+import com.cxy.demo.common.api.ApiResult;
+import com.cxy.demo.constant.CommonConstant;
+import com.cxy.demo.constant.CommonRedisKey;
+import com.cxy.demo.util.UUIDUtil;
+import com.cxy.demo.util.VerificationCode;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;

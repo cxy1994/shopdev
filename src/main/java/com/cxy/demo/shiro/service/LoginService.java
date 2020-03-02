@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.shiro.service;
+package com.cxy.demo.shiro.service;
 
-import io.geekidea.springbootplus.shiro.jwt.JwtToken;
-import io.geekidea.springbootplus.shiro.param.LoginParam;
-import io.geekidea.springbootplus.system.entity.SysUser;
-import io.geekidea.springbootplus.system.vo.LoginSysUserTokenVo;
+import com.cxy.demo.shiro.jwt.JwtToken;
+import com.cxy.demo.shiro.param.LoginParam;
+import com.cxy.demo.system.entity.SysUser;
+import com.cxy.demo.system.vo.LoginSysUserTokenVo;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

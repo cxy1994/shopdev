@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.shiro.util;
+package com.cxy.demo.shiro.util;
 
-import io.geekidea.springbootplus.shiro.jwt.JwtProperties;
-import io.geekidea.springbootplus.util.HttpServletRequestUtil;
+import com.cxy.demo.shiro.jwt.JwtProperties;
+import com.cxy.demo.util.HttpServletRequestUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Component;

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.common.controller;
+package com.cxy.demo.common.controller;
 
-import io.geekidea.springbootplus.common.api.ApiResult;
+import com.cxy.demo.common.api.ApiResult;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

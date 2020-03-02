@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.generator.config;
+package com.cxy.demo.generator.config;
 
 import com.baomidou.mybatisplus.generator.config.querys.MySqlQuery;
 

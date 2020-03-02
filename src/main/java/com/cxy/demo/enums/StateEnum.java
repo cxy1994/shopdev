@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.enums;
+package com.cxy.demo.enums;
 
-import io.geekidea.springbootplus.common.enums.BaseEnum;
+import com.cxy.demo.common.enums.BaseEnum;
 
 /**
  * 启用禁用状态枚举

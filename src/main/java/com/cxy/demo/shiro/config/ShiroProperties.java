@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.shiro.config;
+package com.cxy.demo.shiro.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

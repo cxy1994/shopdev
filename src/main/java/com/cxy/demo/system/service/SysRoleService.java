@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.system.service;
+package com.cxy.demo.system.service;
 
-import io.geekidea.springbootplus.common.service.BaseService;
-import io.geekidea.springbootplus.common.vo.Paging;
-import io.geekidea.springbootplus.system.entity.SysRole;
-import io.geekidea.springbootplus.system.param.SysRoleQueryParam;
-import io.geekidea.springbootplus.system.param.sysrole.AddSysRoleParam;
-import io.geekidea.springbootplus.system.param.sysrole.UpdateSysRoleParam;
-import io.geekidea.springbootplus.system.vo.SysRoleQueryVo;
+import com.cxy.demo.common.service.BaseService;
+import com.cxy.demo.common.vo.Paging;
+import com.cxy.demo.system.entity.SysRole;
+import com.cxy.demo.system.param.SysRoleQueryParam;
+import com.cxy.demo.system.param.sysrole.AddSysRoleParam;
+import com.cxy.demo.system.param.sysrole.UpdateSysRoleParam;
+import com.cxy.demo.system.vo.SysRoleQueryVo;
 
 import java.io.Serializable;
 

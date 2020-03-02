@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.system.controller;
+package com.cxy.demo.system.controller;
 
-import io.geekidea.springbootplus.common.api.ApiResult;
-import io.geekidea.springbootplus.common.controller.BaseController;
-import io.geekidea.springbootplus.common.param.IdParam;
-import io.geekidea.springbootplus.common.vo.Paging;
-import io.geekidea.springbootplus.system.entity.SysLog;
-import io.geekidea.springbootplus.system.param.SysLogQueryParam;
-import io.geekidea.springbootplus.system.service.SysLogService;
-import io.geekidea.springbootplus.system.vo.SysLogQueryVo;
+import com.cxy.demo.common.api.ApiResult;
+import com.cxy.demo.common.controller.BaseController;
+import com.cxy.demo.common.param.IdParam;
+import com.cxy.demo.common.vo.Paging;
+import com.cxy.demo.system.entity.SysLog;
+import com.cxy.demo.system.param.SysLogQueryParam;
+import com.cxy.demo.system.service.SysLogService;
+import com.cxy.demo.system.vo.SysLogQueryVo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;

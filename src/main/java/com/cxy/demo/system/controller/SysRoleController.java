@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.system.controller;
+package com.cxy.demo.system.controller;
 
-import io.geekidea.springbootplus.common.api.ApiResult;
-import io.geekidea.springbootplus.common.controller.BaseController;
-import io.geekidea.springbootplus.common.vo.Paging;
-import io.geekidea.springbootplus.system.param.SysRoleQueryParam;
-import io.geekidea.springbootplus.system.param.sysrole.AddSysRoleParam;
-import io.geekidea.springbootplus.system.param.sysrole.UpdateSysRoleParam;
-import io.geekidea.springbootplus.system.service.SysRoleService;
-import io.geekidea.springbootplus.system.vo.SysRoleQueryVo;
+import com.cxy.demo.common.api.ApiResult;
+import com.cxy.demo.common.controller.BaseController;
+import com.cxy.demo.common.vo.Paging;
+import com.cxy.demo.system.param.SysRoleQueryParam;
+import com.cxy.demo.system.param.sysrole.AddSysRoleParam;
+import com.cxy.demo.system.param.sysrole.UpdateSysRoleParam;
+import com.cxy.demo.system.service.SysRoleService;
+import com.cxy.demo.system.vo.SysRoleQueryVo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;

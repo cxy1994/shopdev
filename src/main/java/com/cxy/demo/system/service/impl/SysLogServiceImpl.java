@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.system.service.impl;
+package com.cxy.demo.system.service.impl;
 
-import io.geekidea.springbootplus.system.entity.SysLog;
-import io.geekidea.springbootplus.system.mapper.SysLogMapper;
-import io.geekidea.springbootplus.system.service.SysLogService;
-import io.geekidea.springbootplus.system.param.SysLogQueryParam;
-import io.geekidea.springbootplus.system.vo.SysLogQueryVo;
-import io.geekidea.springbootplus.common.service.impl.BaseServiceImpl;
-import io.geekidea.springbootplus.common.vo.Paging;
+import com.cxy.demo.system.entity.SysLog;
+import com.cxy.demo.system.mapper.SysLogMapper;
+import com.cxy.demo.system.service.SysLogService;
+import com.cxy.demo.system.param.SysLogQueryParam;
+import com.cxy.demo.system.vo.SysLogQueryVo;
+import com.cxy.demo.common.service.impl.BaseServiceImpl;
+import com.cxy.demo.common.vo.Paging;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.common.param;
+package com.cxy.demo.common.param;
 
-import io.geekidea.springbootplus.constant.CommonConstant;
+import com.cxy.demo.constant.CommonConstant;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

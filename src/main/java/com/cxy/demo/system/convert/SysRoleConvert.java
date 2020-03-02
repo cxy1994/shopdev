@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.system.convert;
+package com.cxy.demo.system.convert;
 
-import io.geekidea.springbootplus.system.entity.SysRole;
-import io.geekidea.springbootplus.system.param.sysrole.AddSysRoleParam;
+import com.cxy.demo.system.entity.SysRole;
+import com.cxy.demo.system.param.sysrole.AddSysRoleParam;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package io.geekidea.springbootplus.shiro.cache.impl;
+package com.cxy.demo.shiro.cache.impl;
 
-import io.geekidea.springbootplus.constant.CommonRedisKey;
-import io.geekidea.springbootplus.shiro.cache.LoginRedisService;
-import io.geekidea.springbootplus.shiro.convert.ShiroMapstructConvert;
-import io.geekidea.springbootplus.shiro.jwt.JwtProperties;
-import io.geekidea.springbootplus.shiro.jwt.JwtToken;
-import io.geekidea.springbootplus.shiro.vo.ClientInfo;
-import io.geekidea.springbootplus.shiro.vo.JwtTokenRedisVo;
-import io.geekidea.springbootplus.shiro.vo.LoginSysUserRedisVo;
-import io.geekidea.springbootplus.shiro.vo.LoginSysUserVo;
-import io.geekidea.springbootplus.system.convert.SysUserConvert;
-import io.geekidea.springbootplus.util.ClientInfoUtil;
-import io.geekidea.springbootplus.util.HttpServletRequestUtil;
+import com.cxy.demo.constant.CommonRedisKey;
+import com.cxy.demo.shiro.cache.LoginRedisService;
+import com.cxy.demo.shiro.convert.ShiroMapstructConvert;
+import com.cxy.demo.shiro.jwt.JwtProperties;
+import com.cxy.demo.shiro.jwt.JwtToken;
+import com.cxy.demo.shiro.vo.ClientInfo;
+import com.cxy.demo.shiro.vo.JwtTokenRedisVo;
+import com.cxy.demo.shiro.vo.LoginSysUserRedisVo;
+import com.cxy.demo.shiro.vo.LoginSysUserVo;
+import com.cxy.demo.system.convert.SysUserConvert;
+import com.cxy.demo.util.ClientInfoUtil;
+import com.cxy.demo.util.HttpServletRequestUtil;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
