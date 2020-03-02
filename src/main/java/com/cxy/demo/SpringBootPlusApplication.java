@@ -39,7 +39,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableTransactionManagement
 @EnableConfigurationProperties
 @EnableAdminServer
-@MapperScan({"io.geekidea.springbootplus.**.mapper"})
+@MapperScan({"com.cxy.demo.**.mapper"})
 @ServletComponentScan
 @SpringBootApplication
 public class SpringBootPlusApplication {

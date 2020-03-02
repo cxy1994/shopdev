@@ -148,7 +148,7 @@ INSERT INTO foo_bar (id, name, foo, bar, remark, state, version, create_time, up
 /**
  * spring-boot-plus代码生成器入口类
  *
- * @author geekidea
+ * 
  * @date 2019-10-22
  **/
 public class SpringBootPlusGenerator {
@@ -261,8 +261,8 @@ public class SpringBootPlusGenerator {
 ```java
 /**
  * spring-boot-plus 项目启动入口
- * @author geekidea
- * @since 2018-11-08
+ * 
+ * 
  */
 @EnableAsync
 @EnableScheduling
